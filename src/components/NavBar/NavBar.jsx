@@ -5,7 +5,7 @@ import Logo from "../Logo/Logo";
 import SearchBar from "../SearchBar/SearchBar";
 import styles from "./NavBar.module.css";
 
-function Navbar({ searchData }) {
+function NavBar({ searchData }) {
   return (
     <nav className={styles.navbar}>
       <Link to="/">
@@ -20,4 +20,4 @@ function Navbar({ searchData }) {
   );
 }
 
-export default Navbar;
+export default NavBar;
